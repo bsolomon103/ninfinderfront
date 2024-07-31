@@ -1,0 +1,10 @@
+/* Custom green background */
+.bg-custom-green {
+  background-color: #28a745; /* You can adjust the color as needed */
+}
+
+/* Ensure body content is not hidden behind the fixed navbar */
+body {
+  padding-top: 56px; /* Height of the fixed navbar */
+}
+

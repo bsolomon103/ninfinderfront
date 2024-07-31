@@ -1,0 +1,90 @@
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.sign-in-box {
+  color: #000000; /* White text color */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+.sign-in-title {
+  text-align: left; /* Align the text to the left */
+  margin-bottom: 1.5rem;
+}
+
+.email-sign-in-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.email-sign-in-form input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.email-sign-in-form button {
+  padding: 0.75rem;
+  background-color: #ffffff; /* White button background color */
+  color: #28a745; /* Green text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #28a745;
+}
+
+.email-sign-in-form button:hover {
+  background-color: #e6e6e6; /* Slightly darker shade for hover effect */
+}
+
+.alternative-sign-in-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* Space between buttons */
+}
+
+.alternative-sign-in-options button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff; /* White text color */
+}
+
+.facebook-button {
+  background-color: #3b5998; /* Facebook blue */
+}
+
+.google-button {
+  background-color: #db4437; /* Google red */
+}
+
+.apple-button {
+  background-color: #000000; /* Apple black */
+}
+
+.sign-in-box p {
+  margin-top: 1rem;
+}
+
+.sign-in-box a {
+  color: #ffffff; /* White link color */
+  text-decoration: underline; /* Optional: underline the link */
+  color: #198754;
+}
+
+.sign-in-box a:hover {
+  text-decoration: none; /* Optional: remove underline on hover */
+}

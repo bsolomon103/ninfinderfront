@@ -1,0 +1,34 @@
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;    /* Maintain aspect ratio */
+}
+
+.img-result {
+    width:15px;
+    height:15px
+}
+
+
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

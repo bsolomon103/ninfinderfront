@@ -1,0 +1,66 @@
+/* SignUp.css */
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+.sign-up-box {
+  background-color: #ffffff; /* White background for the form */
+  color: #333333; /* Dark text color for readability */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.sign-up-box h2 {
+  margin-bottom: 1.5rem;
+  color: #28a745; /* Green color for the heading */
+}
+
+.sign-up-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-box input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.sign-up-box button {
+  padding: 0.75rem;
+  background-color: #28a745; /* Green button background color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sign-up-box button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.sign-up-box input::placeholder {
+  color: #888888; /* Placeholder text color */
+}
+
+.sign-up-box input[type="text"],
+.sign-up-box input[type="email"],
+.sign-up-box input[type="password"] {
+  width: 100%; /* Make inputs full width */
+}
+
+.sign-up-box input[type="text"]:first-of-type {
+  margin-top: 0;
+}
